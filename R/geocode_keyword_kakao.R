@@ -1,4 +1,4 @@
-geocode_keyword_kakao <- function (keyword, kakao_key, category_group_code, lon, lat, radius, rect) {
+kakao_geocode_keyword <- function (keyword, kakao_key, category_group_code, lon, lat, radius, rect) {
 
   if (is.character(keyword) == F){
     stop('address is not character')

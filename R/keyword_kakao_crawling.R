@@ -1,4 +1,4 @@
-keyword_kakao_crawling <- function (category_group_code,  kakao_key, lon, lat, radius = 1000, rect) {
+kakao_keyword_crawling <- function (category_group_code,  kakao_key, lon, lat, radius = 1000, rect) {
 
   url <- "https://dapi.kakao.com/v2/local/search/category.json?"
 

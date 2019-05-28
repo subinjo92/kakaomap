@@ -1,4 +1,4 @@
-geocode_kakao <- function (address, kakao_key) {
+kakao_geocode <- function (address, kakao_key) {
 
   #Check if the address is formatted correctly
   if (is.character(address) == F){
